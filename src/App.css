@@ -1,0 +1,15 @@
+body {
+	font-family: "Montserrat", "Darker Grotesque", "Open Sans Condensed",
+		sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}

@@ -1,0 +1,18 @@
+.submenu {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(255,255,255,0.25);
+	padding: 22px;
+	.submenu-item {
+		font-family: "Hind-Light";
+		font-weight: initial;
+		color: #fff;
+		font-size: 24px;
+		margin-left: 32px;
+	}
+	.submenu-right {
+		.submenu-item {
+			margin-left:72px;
+		}
+	}
+}

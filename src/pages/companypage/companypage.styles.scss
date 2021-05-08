@@ -1,0 +1,29 @@
+.companypage {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(82, 82, 82);
+	.main-container {
+		display: flex;
+		width: 100%;
+		.main-left {
+			width: 70%;
+			background: #342E37;
+		}
+		.main-right {
+			width: 30%;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	}
+	.middle-column {
+		border-radius: 1px;
+		margin: 0px 10px 0px 10px;
+		padding: 4px 4px 0px 4px;
+		height: 100vh;
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgb(36, 36, 36);
+	}
+}

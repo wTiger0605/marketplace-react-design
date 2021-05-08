@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Hind-Light";
+	src: url("../../assets/Hind-Light.woff");
+}
+.homepage {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(82, 82, 82);
+
+	.middle-column {
+		border-radius: 1px;
+		margin: 0px 10px 0px 10px;
+		padding: 4px 4px 0px 4px;
+		height: 100vh;
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgb(36, 36, 36);
+	}
+}

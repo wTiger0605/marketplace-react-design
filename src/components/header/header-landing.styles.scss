@@ -1,0 +1,92 @@
+.header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 48px 150px;
+	.header-left {
+		display: flex;
+		.logo-container {
+			display: flex;
+		}
+		.searchbar-container {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin-left: 64px;
+			img.search-icon {
+				position: absolute;
+				left: 21px;
+				top: 32px;
+			}
+			input.searchbar {
+				background: rgba(255,255,255,0.5);
+				font-size: 16px;
+				line-height: 46px;
+				width: 400px;
+				border: none;
+				border-radius: 23px;
+				padding: 0 20px 0 60px;
+				color: white;
+				&:focus {
+					outline: none;
+				}
+				&::placeholder {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.menu-container {
+		display: flex;
+		align-items: center;
+		.menu-item {
+			margin-left: 78px;
+			h4 {
+				color: #fff;
+				font-size: 32px;
+				font-family: "Hind-Light";
+				font-weight: initial;
+				text-align: center;
+			}
+			&:last-child {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				h4 {
+					position: absolute;
+				}
+			}
+		}
+	}
+	.options {
+		height: 80px;
+		margin: auto;
+		align-self: center;
+		text-align: center;
+		background-color: rgb(211, 211, 211);
+		border-radius: 0px 0px 6px 6px;
+		.dashboards-text {
+			font-size: 2.5vw;
+			padding-top: 10px;
+			font-weight: bold;
+			letter-spacing: 0.6px;
+		}
+		.option {
+			padding: 10px 15px;
+			cursor: pointer;
+			font-size: 1vw;
+			color: white;
+		}
+	}
+	.button {
+		position: relative;
+		top: 12px;
+		background-color: black;
+		margin: 0 15px 0 15px;
+		height: 18px;
+		border-radius: 5px;
+	}
+}

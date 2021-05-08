@@ -1,0 +1,16 @@
+.news-feeds-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+
+  .tr {
+    border: 1px solid rgb(255, 195, 127);
+    width: 50px;
+  }
+
+  .feedImage {
+    width: 15px;
+    height: 17px;
+  }
+}
